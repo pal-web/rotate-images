@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    padding: 3rem;
+}
+.rotate{
+    width: 80;
+    height: 80;
+    animation: rotation infinite 3s linear;
+
+}
+@keyframes rotation{
+    from{
+      transform:rotate(0deg);
+    }
+  
+    to{
+      transform:rotate(360deg);
+    }
+  }
